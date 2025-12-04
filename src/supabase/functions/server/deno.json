@@ -1,0 +1,12 @@
+{
+  "imports": {
+    "hono": "npm:hono@4.6.14",
+    "hono/cors": "npm:hono@4.6.14/dist/middleware/cors/index.js",
+    "hono/logger": "npm:hono@4.6.14/dist/middleware/logger/index.js",
+    "zod": "npm:zod@3.23.8",
+    "@supabase/supabase-js": "jsr:@supabase/supabase-js@2.49.8"
+  },
+  "compilerOptions": {
+    "allowImportingTsExtensions": true
+  }
+}
